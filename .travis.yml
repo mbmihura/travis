@@ -1,4 +1,4 @@
-language: scala # to trigger the build on JVM worker ('language: java' works the same)
+language: java # to trigger the build on JVM worker ('language: java' works the same)
 env:
   - PLAY_VERSION=2.1-RC2 # Latest 2.1.x
 before_script: 
